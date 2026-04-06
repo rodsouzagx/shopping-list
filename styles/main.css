@@ -6,9 +6,8 @@
 
 .main-container {
   width: 100%;
-  max-width: 630px; /* 🔥 limite máximo */
+  max-width: 630px;
   margin: 62px auto 0;
-  /* padding: 0 16px; 🔥 respiro nas laterais */
 }
 
 .back-link {
@@ -96,6 +95,8 @@ li {
 }
 
 .btn-delete {
+  display: flex;
+  align-items: center;
   background: none;
   border: none;
   cursor: pointer;
