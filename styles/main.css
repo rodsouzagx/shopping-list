@@ -159,11 +159,15 @@ li {
 @media (max-width: 620px) {
   .main-container {
     padding: 0 32px;
+    margin-top: 34px;
   }
   .form-field {
     flex-direction: column;
   }
   .main-container h1 {
     text-align: center;
+  }
+  .logo {
+    display: none;
   }
 }
