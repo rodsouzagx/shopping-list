@@ -7,7 +7,7 @@
 .main-container {
   width: 100%;
   max-width: 630px;
-  margin: 62px auto 0;
+  margin: 62px auto 137px;
 }
 
 .back-link {
@@ -137,6 +137,20 @@ li {
   justify-content: space-between;
   padding: 12px 12px;
   border-radius: 12px;
+
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.alert-notification.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.alert-notification.hide {
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 .alert-notification span {
@@ -162,9 +176,6 @@ li {
   }
   .form-field {
     flex-direction: column;
-  }
-  .main-container h1 {
-    text-align: center;
   }
   .logo {
     display: none;
