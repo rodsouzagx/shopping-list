@@ -18,7 +18,6 @@ form.onsubmit = (event) => {
     created_at: new Date(),
   };
 
-  console.log(newItem);
   itemAdd(newItem);
 };
 
@@ -49,6 +48,7 @@ function itemAdd(newItem) {
 
     shoppingItem.append(shoppingItemInfo, buttonDelete);
     shoppingList.append(shoppingItem);
+
     clearForm();
   } catch (error) {
     alert("Não foi possível adicionar item a lista de compras.");
