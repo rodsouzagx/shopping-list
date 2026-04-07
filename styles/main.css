@@ -98,6 +98,13 @@ li {
   background: none;
   border: none;
   cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
+.btn-delete img {
+  width: 32px;
+  height: 32px;
 }
 
 .item {
